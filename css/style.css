@@ -60,10 +60,10 @@ header > .container > nav > .gnb > li.on > a {
 #home {
   width: 100%;
   height: 960px;
-  background-image: url(../images/main_banner.jpg);
+  /* background-image: url(../images/main_banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
 }
 
 #home > .container {
@@ -101,7 +101,7 @@ header > .container > nav > .gnb > li.on > a {
   letter-spacing: -3px;
 }
 
-#home > .container > h1 > .name {
+/* #home > .container > h1 > .name {
   display: block;
   width: 390px;
   height: 194px;
@@ -109,8 +109,7 @@ header > .container > nav > .gnb > li.on > a {
   left: 300px;
   bottom: 70px;
   text-indent: -9999px;
-  background-image: url(../images/name_peach.png);
-}
+} */
 
 #home > .container > .des {
   font-size: 22px;
@@ -415,15 +414,16 @@ header > .container > nav > .gnb > li.on > a {
 }
 
 #skills > .tool > li:nth-child(4) {
-  width: 127px;
-  height: 144px;
-  background-image: url(../image/figma.png);
+  width: 182px;
+  height: 161px;
+  margin-top: 8px;
+  background-image: url(../image/figma-icon2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #skills > .tool > li:nth-child(5) {
-  width: 127px;
+  width: 160px;
   height: 144px;
   background-image: url(../image/GA4-icon.png);
   background-size: cover;
