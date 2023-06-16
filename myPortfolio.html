@@ -25,9 +25,40 @@
     <link rel="stylesheet" href="css/layout.css">
 
     <script src="js/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
+    <!-- modal -->
+    <!-- <div class="modal">
+        <div class="modal-wrap">
+            <div class="modal-box modal-front">
+                <i class="fas fa-laptop-code"></i>
+                <h1>Wonji's Portfolio</h1>
+                <h2>이 사이트는 스터디용으로 제작되었으며<br>
+                    리소스는 박원지에게 있습니다.</h2>
+                <span>본 사이트는 Chrome에 최적화 되어있습니다.</span>
+            </div>
+
+            <div class="modal-box modal-back">
+                <ul class="modal-list">
+                    <h3><i class="fas fa-bullhorn"></i> <u>이렇게 제작하였습니다</u> :) </h3>
+                    <li>1. <b>Favicon</b>을 추가하였습니다.</li>
+                    <li>2. Header, Visual, About us 영역을 Container 너비 기준으로 재정렬해서 <b>사용자가 보는 화면의 레이아웃을 일관성있게 재구성</b>하였습니다.
+                    </li>
+                    <li>3. UX 편의성을 향상시키기 위해 <b>주메뉴 및 서브메뉴에 마우스 롤오버시 포커스 유지</b> 기능을 추가하였습니다. </li>
+                </ul>
+            </div>
+
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+        </div>
+    </div> -->
+    <!-- //modal -->
+
+
     <div id="wrap">
         <header class="">
             <div class="container">
@@ -37,6 +68,7 @@
                         <li class=""><a href="#aboutme">ABOUT ME</a></li>
                         <li class=""><a href="#skills">SKILLS</a></li>
                         <li class=""><a href="#portfolio">PORTFOLIO</a></li>
+                        <li class=""><a href="#experience">EXPERIENCE</a></li>
                         <li class=""><a href="#contact">CONTACT</a></li>
                     </ul>
                 </nav>
@@ -45,11 +77,14 @@
 
         <hr>
 
-        <section id="home" class="content0">
-            <div class="container">
-                <p>CREATIVE PARK WONJI</p>
-                <p>PORTFOLIO<br>VOL.1</p>
-                <h1>WEB<br>PUBLISHER<br></h1>
+        <section id="home" class="">
+            <div class=" container">
+                <p data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                    style="visibility: visible;">CREATIVE PARK WONJI</p>
+                <p data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                    style="visibility: visible;">PORTFOLIO<br>VOL.1</p>
+                <h1 data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" style="visibility: visible;">WEB<br>PUBLISHER<br></h1>
                 <p class="des">안녕하세요. 신입 웹퍼블리셔 박원지입니다.<br>
                     이 포트폴리오에서는 퍼블리셔를 꿈꾸며 준비한,<br>
                     저의 노력의 결과인 작업물들을 보실 수 있습니다.🙂</p>
@@ -111,7 +146,7 @@
         <hr>
 
         <section id="skills" data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000" class="content2" style="visibility: visible;">
+            data-aos-duration="2000" class="" style="visibility: visible;">
             <h2>I can do</h2>
 
             <ul class="skill clearfix">
@@ -137,8 +172,8 @@
 
         <hr>
 
-        <section id="portfolio" class="content3" data-aos="fade-up" data-aos-offset="400"
-            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <section id="portfolio" class="" data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <h2>Portfolio</h2>
 
             <div class="container">
@@ -165,7 +200,7 @@
                             target="_blank">사이트 바로가기</a>
                         <div class="view_img" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50"
                             data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
-                            data-aos-once="false">메인화면 이미지 미리보기</div>
+                            data-aos-once="false"></div>
                     </li>
 
                     <li>
@@ -178,7 +213,7 @@
                             사용 툴 : Photoshop, Visual Studio Code<br>
                             참여도 : 100%
                         </p>
-                        <div class="view_img">메인화면 이미지 미리보기</div>
+                        <div class="view_img"></div>
                         <a href="#" class="viewOpen">Github 바로가기</a>
                         <a href="hhttps://dnjswlekd.github.io/sing-up/sign-up.html" target="_blank">사이트 바로가기</a>
                     </li>
@@ -194,7 +229,7 @@
                             사용 툴 : Photoshop, Illustrator, Visual Studio Code<br>
                             참여도 : 100%
                         </p>
-                        <div class="view_img">메인화면 이미지 미리보기</div>
+                        <div class="view_img"></div>
                         <a href="#" class="viewOpen">Github 바로가기</a>
                         <a href="#" target="_blank">사이트 바로가기</a>
                     </li>
@@ -210,7 +245,7 @@
                             사용 툴 : Photoshop<br>
                             참여도 : 100%
                         </p>
-                        <div class="view_img">메인화면 이미지 미리보기</div>
+                        <div class="view_img"></div>
                         <a href="#" class="viewOpen">Github 바로가기</a>
                         <a href="#" target="_blank">사이트 바로가기</a>
                     </li>
@@ -220,7 +255,17 @@
 
         <hr>
 
-        <section id="contact" class="content5" data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-out-cubic"
+        <section id="experience" class="" data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" style="visibility: visible; ">
+            <h2>Experience</h2>
+        
+        </section>
+
+
+
+        <hr>
+
+        <section id="contact" class="" data-aos="fade-up" data-aos-offset="400" data-aos-easing="ease-out-cubic"
             data-aos-duration="2000" style="visibility: visible; ">
             <h2>Contact</h2>
             <div class="contact_img"></div>

@@ -1,5 +1,3 @@
-"use strict";
-
 window.addEventListener("scroll", function () {
   var scrollPosition = window.scrollY;
   var targetElement = document.querySelector("header");
@@ -47,3 +45,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// modal
+window.onload = function () {
+  const modal = document.querySelector(".modal");
+  const modalClose = document.querySelector(".modal-close");
+
+  modalClose.addEventListener("click", function () {
+    modal.style.display = "none";
+  });
+};
