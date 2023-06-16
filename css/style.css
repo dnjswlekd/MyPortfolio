@@ -167,16 +167,6 @@ header > .container > nav > .gnb > li.on > a {
   background-repeat: no-repeat;
 }
 
-#aboutme > .content1-left > a > p.link {
-  width: 358px;
-  height: 30px;
-  line-height: 30px;
-  color: #f49389;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
-
 #aboutme > .content1-left > .about_bg {
   width: 700px;
   height: 570px;
@@ -217,11 +207,9 @@ header > .container > nav > .gnb > li.on > a {
   line-height: 2;
 }
 
-#aboutme > .content1-right > .profile > ul > li:not(:first-child) {
-  display: none;
-}
+/* aboutme button remove */
 
-#aboutme > .content1-right > .profile > button {
+/* #aboutme > .content1-right > .profile > button {
   width: 21px;
   height: 41px;
   outline: none;
@@ -255,7 +243,7 @@ header > .container > nav > .gnb > li.on > a {
 #aboutme > .content1-right > .profile > .next:hover,
 #aboutme > .content1-right > .profile > .next.on {
   background-position: -31px -42px;
-}
+} */
 
 #aboutme > .content1-right > .tag {
   width: 650px;
@@ -273,8 +261,7 @@ header > .container > nav > .gnb > li.on > a {
   margin-bottom: 10px;
 }
 
-#aboutme > .content1-right > .tag > ul > li:first-child,
-#aboutme > .content1-right > .tag > ul > li:nth-child(6) {
+#aboutme > .content1-right > .tag > ul > li:first-child {
   margin-left: 0;
 }
 
@@ -296,10 +283,6 @@ header > .container > nav > .gnb > li.on > a {
   border-radius: 18px;
 }
 
-#aboutme > .content1-right > .tag > ul > li:hover > a:active {
-  background-color: #bbdcfb;
-}
-
 /* section - skills */
 #skills {
   height: 960px;
@@ -308,7 +291,7 @@ header > .container > nav > .gnb > li.on > a {
 }
 
 #skills > h2 {
-  margin-bottom: 10px;
+  margin-bottom: 32px;
   font-size: 70px;
   font-weight: 500;
   color: #425a73;
@@ -322,20 +305,35 @@ header > .container > nav > .gnb > li.on > a {
 
 #skills > .skill {
   display: flex;
-  max-width: 1920px;
   margin: 0 auto 150px;
+  flex-wrap: nowrap;
+  max-width: 1920px;
   justify-content: center;
 }
 
 #skills > .skill > li {
   margin: 20px;
   text-indent: -9999px;
-  justify-content: center;
 }
 
-/* 수정필요함!!!!!!!!!!!!!!!!!!!!!!!1 */
-
 #skills > .skill > li:nth-child(1) {
+  width: 155px;
+  height: 144px;
+  transform: scale(1.2);
+  background-image: url(../image/GA4-icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#skills > .skill > li:nth-child(2) {
+  width: 142px;
+  height: 163px;
+  margin-left: -5px;
+  transform: scale(1.2);
+  background-image: url(../image/TGM-icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#skills > .skill > li:nth-child(3) {
   width: 130px;
   height: 144px;
   background-image: url(../image/html-icon.png);
@@ -343,7 +341,7 @@ header > .container > nav > .gnb > li.on > a {
   background-repeat: no-repeat;
 }
 
-#skills > .skill > li:nth-child(2) {
+#skills > .skill > li:nth-child(4) {
   width: 145px;
   height: 144px;
   background-image: url(../image/css-icon.png);
@@ -351,7 +349,7 @@ header > .container > nav > .gnb > li.on > a {
   background-repeat: no-repeat;
 }
 
-#skills > .skill > li:nth-child(3) {
+#skills > .skill > li:nth-child(5) {
   width: 103px;
   height: 144px;
   background-image: url(../image/js-icon.png);
@@ -359,7 +357,7 @@ header > .container > nav > .gnb > li.on > a {
   background-repeat: no-repeat;
 }
 
-#skills > .skill > li:nth-child(4) {
+#skills > .skill > li:nth-child(6) {
   width: 139px;
   height: 144px;
   background-image: url(../image/jquery-icon.png);
@@ -367,7 +365,14 @@ header > .container > nav > .gnb > li.on > a {
   background-repeat: no-repeat;
 }
 
-#skills > .skill > li:nth-child(5) {
+#skills > .skill > li:nth-child(7) {
+  width: 178px;
+  height: 145px;
+  background-image: url(../image/restapi-icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#skills > .skill > li:nth-child(8) {
   width: 127px;
   height: 144px;
   background-image: url(../image/json-file.png);
@@ -377,9 +382,10 @@ header > .container > nav > .gnb > li.on > a {
 
 #skills > .tool {
   display: flex;
-  max-width: 1920px;
   margin: 0 auto 150px;
+  max-width: 1920px;
   justify-content: center;
+  align-items: flex-end;
 }
 
 #skills > .tool > li {
@@ -389,6 +395,15 @@ header > .container > nav > .gnb > li.on > a {
 }
 
 #skills > .tool > li:nth-child(1) {
+  width: 178px;
+  height: 157px;
+  background-image: url(../image/figma-icon2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: -2px;
+}
+
+#skills > .tool > li:nth-child(2) {
   width: 144px;
   height: 144px;
   background-image: url(../image/photoshop-icon.png);
@@ -396,7 +411,7 @@ header > .container > nav > .gnb > li.on > a {
   background-repeat: no-repeat;
 }
 
-#skills > .tool > li:nth-child(2) {
+#skills > .tool > li:nth-child(3) {
   width: 148px;
   height: 144px;
   background-image: url(../image/illustraor-icon.png);
@@ -404,45 +419,20 @@ header > .container > nav > .gnb > li.on > a {
   background-repeat: no-repeat;
 }
 
-#skills > .tool > li:nth-child(3) {
-  width: 250px;
-  height: 159px;
+#skills > .tool > li:nth-child(4) {
+  width: 252px;
+  height: 153px;
   background-image: url(../image/indesign-icon.png);
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 13px -48px 0 -25px;
-}
-
-#skills > .tool > li:nth-child(4) {
-  width: 182px;
-  height: 161px;
-  margin-top: 8px;
-  background-image: url(../image/figma-icon2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#skills > .tool > li:nth-child(5) {
-  width: 160px;
-  height: 144px;
-  background-image: url(../image/GA4-icon.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#skills > .tool > li:nth-child(6) {
-  width: 127px;
-  height: 144px;
-  background-image: url(../image/TGM-icon.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  margin-left: -23px;
 }
 
 /* section - portfolio */
 #portfolio {
-  max-width: 1920px;
   height: 960px;
   margin: 0 auto;
+  max-width: 1920px;
 }
 
 #portfolio > h2 {
@@ -501,17 +491,17 @@ header > .container > nav > .gnb > li.on > a {
 }
 
 #portfolio > .container > .view {
+  margin: 0 auto;
   position: relative;
   max-width: 1200px;
-  margin: 0 auto;
 }
 
 #portfolio > .container > .view > li {
+  width: 1040px;
+  height: 380px;
   position: absolute;
   left: 0;
   top: 0;
-  width: 1040px;
-  height: 380px;
   padding: 80px;
 }
 
@@ -535,11 +525,11 @@ header > .container > nav > .gnb > li.on > a {
 }
 
 #portfolio > .container > .view > li > .view_img {
+  width: 480px;
+  height: 384px;
   position: absolute;
   right: 80px;
   top: 80px;
-  width: 480px;
-  height: 384px;
   background-image: url(../image/knotted-mockup.png);
   background-size: cover;
 }
