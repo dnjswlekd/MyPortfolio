@@ -285,7 +285,7 @@ header > .container > nav > .gnb > li.on > a {
 
 /* section - skills */
 #skills {
-  height: 960px;
+  height: 1097px;
   margin: 0 auto;
   max-width: 1920px;
 }
@@ -410,7 +410,6 @@ header > .container > nav > .gnb > li.on > a {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 #skills > .tool > li:nth-child(3) {
   width: 148px;
   height: 144px;
@@ -425,7 +424,7 @@ header > .container > nav > .gnb > li.on > a {
   background-image: url(../image/indesign-icon.png);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-left: -23px;
+  margin-left: -30px;
 }
 
 /* section - portfolio */
