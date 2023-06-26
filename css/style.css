@@ -439,7 +439,7 @@ header > .container > nav > .gnb > li.on > a {
 }
 
 #portfolio > .container > .mnu {
-  width: 436px;
+  width: 427px;
   margin: 0 auto;
 }
 
@@ -538,12 +538,12 @@ header > .container > nav > .gnb > li.on > a {
 }
 
 #portfolio > .container > .view > li:nth-child(3) > .view_img {
-  background-image: url(../image/knotted-mockup.png);
+  background-image: url(../image/interpark-mockup.png);
   background-size: cover;
 }
 
 #portfolio > .container > .view > li:nth-child(4) > .view_img {
-  background-image: url(../image/innuneco-mockup.png);
+  background-image: url(../image/stx-mockup.png);
   background-size: cover;
 }
 
@@ -714,4 +714,3 @@ footer > address {
   line-height: 1.6;
   text-align: center;
 }
-
