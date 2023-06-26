@@ -671,7 +671,7 @@ header > .container > nav > .gnb > li.on > a {
 
 #contact > .container > .link {
   display: flex;
-  width: 394px;
+  width: 443px;
   margin: 0 auto;
 }
 
@@ -685,12 +685,17 @@ header > .container > nav > .gnb > li.on > a {
 }
 
 #contact > .container > .link > a.notion {
-  width: 50%;
+  width: 33%;
   margin-right: 10px;
 }
 
 #contact > .container > .link > a.git {
-  width: 50%;
+  width: 33%;
+  margin-right: 10px;
+}
+
+#contact > .container > .link > a.resume {
+  width: 33%;
 }
 
 #contact > .container > .link > a:hover,
